@@ -48,7 +48,7 @@ footer a{
         gap: 20px;
     }
 }
-@media only screen and (min-width: 601) and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     .contai{
         display: grid;
         grid-template-columns: auto auto !important;
