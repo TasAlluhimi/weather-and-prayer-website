@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(235,238,243);
+
+}
+
+nav{
+    background-color: rgb(156,184,237) !important;
+    /* color: white !important; */
+}
+nav a{
+    color: white !important;
+}
+.main-btn{
+    background-color: rgb(156,184,237) !important;
+    color: white !important;
+}
+
+.main-btn a{
+    background-color: rgb(156,184,237) !important;
+    color: white;
+}
+
+footer{
+    background-color: rgb(156,184,237) !important;
+    color: white;
+}
+
+footer a{
+    color: white !important;
+}
+
+.error{
+    color: red;
+}
+
+.contai{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contai{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+        gap: 20px;
+    }
+}
+@media only screen and (min-width: 601) and (max-width: 992px) {
+    .contai{
+        display: grid;
+        grid-template-columns: auto auto !important;
+        margin-top: 30px;
+        gap: 20px;
+    }
+}
+/* .cont{
+    display: grid;
+    grid-template-columns: auto;
+} */
