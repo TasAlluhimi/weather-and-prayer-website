@@ -39,7 +39,7 @@ rel="stylesheet"
               </li>
             </ul>
           </div>
-        </div><p class="text-center" id="wlc-message"></p>
+        </div>
       </nav>
 
       <div class="cont p-5">
@@ -56,15 +56,6 @@ rel="stylesheet"
 
 </body>
 <script src="main.js"></script>
-<script>
-    let check = localStorage.getItem("isLogin")
-    let username = localStorage.getItem("username")
-    let wlc_message = document.getElementById("wlc-message")
-    if(!check){
-        wlc_message.innerText = `Welcome ${username}!`
-        window.location.href ='index.html'
-    }
-</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 
@@ -75,24 +66,20 @@ rel="stylesheet"
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Footer text</h5>
-  
+          <h5 class="text-uppercase">Weather</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+            You can check the weatherof any city not only Riyadh, Try it now!
           </p>
         </div>
         <!--Grid column-->
   
         <!--Grid column-->
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Footer text</h5>
+          <h5 class="text-uppercase">Prayer Time</h5>
   
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+            You can check the prayer time of November!<br>
+            You can check any month or year - coming soon.
           </p>
         </div>
         <!--Grid column-->

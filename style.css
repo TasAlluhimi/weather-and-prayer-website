@@ -43,12 +43,12 @@ footer a{
 @media only screen and (max-width: 600px) {
     .contai{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto !important;
         margin-top: 30px;
         gap: 20px;
     }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px)and(min-width: 601px) {
     .contai{
         display: grid;
         grid-template-columns: auto auto !important;
